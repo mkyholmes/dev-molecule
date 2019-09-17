@@ -74,13 +74,9 @@
           Function: "{{ item.Function }}"
         wait: true
         assign_public_ip: true
-        exact_count: 1
+        exact_count: "{{ item.count }}"
         count_tag:
           instance: "{{ item.name }}"
-          Name: "{{ item.name }}"
-          Zone: "{{ item.Zone }}"
-          Type: "{{ item.Type }}"
-          Function: "{{ item.Function }}"
       register: server
       with_items: "{{ molecule_yml.platforms }}"
       async: 7200
