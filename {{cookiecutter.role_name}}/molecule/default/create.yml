@@ -1,4 +1,5 @@
 ---
+{% raw -%}
 - name: Create
   hosts: localhost
   connection: local
@@ -131,3 +132,4 @@
     - name: Wait for boot process to finish
       pause:
         minutes: 2
+{%- endraw %}
