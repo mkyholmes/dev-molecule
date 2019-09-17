@@ -1,0 +1,14 @@
+{
+    "role_name": "role_name",
+    "ec2_name": "default_name",
+    "ec2_type": "t2.micro",
+    "ec2_count": "1",
+    "instance_type": "My_Type",
+    "instance_function": "My_Function",
+    "instance_zone": "Presentation",
+    "author": "your name",
+    "description": "your description",
+    "company": "your company (optional)",
+    "license": ["BSD", "MIT", "GPLv2", "GPLv3", "Apache", "CC-BY"],
+    "min_ansible_version": 1.2
+}
