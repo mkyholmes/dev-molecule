@@ -10,7 +10,7 @@ platforms:
     image: ami-a1d349c0
     instance_type: {{ cookiecutter.ec2_type }}
     count: {{ cookiecutter.ec2_count }}
-    vpc_subnet_id: subnet-9ec280fa
+    vpc_subnet_id: {{ cookiecutter.subnet_id }}
     Type: {{ cookiecutter.instance_type}}
     Function: {{ cookiecutter.instance_function }}
     Zone: {{ cookiecutter.instance_zone }}
