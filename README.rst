@@ -10,7 +10,7 @@ provide their own templates.
 
 How to use
 =====================
-molecule init template --url git@dccscr.dsop.io:unified-platform-automation/templates/dev-molecule.git -r <role name>
+molecule init template --url git@dccscr.dsop.io:levelup-automation/templates/dev-molecule.git -r <role name>
 
 
 
